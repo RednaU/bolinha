@@ -12,6 +12,10 @@ $(document).ready(function(){
       $('.green').hide();
     });
     
+    $('.blue').click(function(){
+        $('.green, .red, .yellow').toggle();
+    })
+    
     
     
     
